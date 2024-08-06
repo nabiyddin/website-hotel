@@ -1,0 +1,294 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start of main styling */
+html,
+body {
+  font-family: sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 25px;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar ul li a {
+  padding: 27px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+/* End of main styling */
+
+/* Start of showcase styling */
+#showcase {
+  background: url("/images/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#showcase h1 {
+  font-size: 60px;
+}
+
+#showcase p {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.showcase-content {
+  text-align: center;
+  color: #fff;
+  padding-top: 170px;
+}
+/* End of showcase styling */
+
+/* Start of home-info styling */
+#home-info {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.info-img {
+  width: 50%;
+  height: 100%;
+  background: url("../images/photo-1.jpg");
+}
+
+.info-content {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.info-content p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+/* End of home-info styling */
+
+/* Start of features styling */
+#features {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 50px;
+  width: 33.3%;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+/* End of features styling */
+
+/* Start of footer styling */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+/* End of footer styling */
+
+/* Start of about us styling */
+#about-info .info-right {
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#about-info .info-left {
+  width: 50%;
+  min-height: 100%;
+}
+
+.about-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* End of about us styling */
+
+/* Start of testimonials styling */
+#testimonials {
+  height: 600px;
+  padding-top: 100px;
+  background: url("../images/test-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 34px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonial {
+  display: flex;
+  gap: 20px;
+}
+/* End of testimonials styling */
+
+/* Start of contact styling */
+#contact-form {
+  padding: 20px 0;
+}
+
+#contact-form h1 {
+  font-size: 20px 0;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.boxes-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.boxes-wrapper .box {
+  text-align: center;
+}
+/* End of contact styling */
